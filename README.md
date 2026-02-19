@@ -1,0 +1,1 @@
+# internship-word2vec-task
