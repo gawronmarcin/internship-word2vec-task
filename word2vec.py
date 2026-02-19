@@ -77,4 +77,3 @@ for epoch in range(epochs):
     if epoch%10==0:
         avg_error=epoch_loss/len(training_data)
         print(avg_error)
-print(f"Wektor: {W1}")
