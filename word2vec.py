@@ -11,6 +11,7 @@ birds fly high in the blue sky.
 fish swim deep in the blue water.
 birds and fish are animals. cats and dogs are animals.
 """
+text = text.replace('.', '')
 tokens=text.lower().split()
 vocab=list(set(tokens))
 vocab_size=len(vocab)
